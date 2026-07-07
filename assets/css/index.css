@@ -1,0 +1,9 @@
+
+.contenedor-paso{
+    margin-top: 2rem;
+}
+
+/* Clase para controlar cada una de las imagenes de los pasos */
+.imagen-representativa-paso{
+    max-width: 600px;
+}

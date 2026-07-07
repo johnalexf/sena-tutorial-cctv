@@ -24,6 +24,7 @@
     <!-- Fin Google Fonts -->
 
     <!-- Estilos propios -->
+    <link rel="stylesheet" href="assets/css/index.css">
 
 </head>
 
@@ -61,6 +62,39 @@
             <h2 class="text-primary text-center fs-4">
                 Pasos para realizar un mantenimiento preventivo a un sistema de circuito cerrado de television (CCTV)
             </h2>
+
+            <!-- paso 1. -->
+            <section id="paso1" class="contenedor-paso">
+
+                <!-- titulo del paso 1 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-5 ">
+                        Paso 1. Documentar visualización de camaras en DVR
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 1 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Antes de empezar a manipular el sistema, es necesario tomar evidencia de cada una de las camaras conectadas al DVR, si tenia o no visualizacion, hacia donde esta observando y si esta enfocada, todo esto sirve como base para la creacion de un informe de un antes y un despues del mantenimiento.</p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 1 -->
+                <div class="contenedor-img-paso">
+                    <figure>
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso1_monitor_dvr.png" 
+                            alt="Foto de un monitor de la visualizacion de 32 camaras de un grabador donde 15 de ellas no tienen visual"
+                        >
+                        <figcaption class="mt-2 text-muted small">
+                            Figura 1. Visualizacion de camaras antes del mantenimiento
+                        </figcaption>
+                    </figure>   
+                </div>
+
+            </section>
+
+
         </section>
         <!-- Fin del contenido del detalle de los pasos -->
 
@@ -73,7 +107,7 @@
 
             <ol>
                 <li>
-                    paso 1
+                    <a href="#paso1">Documentar visualizacion de camaras en DVR</a>
                 </li>
             </ol>
         </nav>
