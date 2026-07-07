@@ -59,7 +59,7 @@
 
         <!-- Inicio contenido del detalles de los pasos -->
         <section class="col-9 py-3 border-secondary border-2 border-end">
-            
+
             <h2 class="text-primary text-center fs-4">
                 Pasos para realizar un mantenimiento preventivo a un sistema de circuito cerrado de television (CCTV)
             </h2>
@@ -138,6 +138,50 @@
                 </div>
 
             </section>
+            
+
+            <!-- paso 3. -->
+            <section id="paso3" class="contenedor-paso">
+
+                <!-- titulo del paso 3 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-5 ">
+                        Paso 3. Limpiar grabador de video DVR
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 3 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Con el tiempo el grabador de las camaras acumula polvo y hollin que hacen que el calor de la tarjeta principal aumente, ademas que bloquea el correcto paso del aire de adentro hacia afuera que pasa a traves del ventilador, por esto es necesario realizar una limpieza profunda dentro del grabador para asi alargar la vida util del equipo, evitando posibles daños por temperaturas extremas. </p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 3 -->
+                <div class="contenedor-imagenes-paso">
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso3_grabador_sucio.png" 
+                            alt="Imagen que contiene 4 imagenes donde se puede visualizar el estado de un grabador por dentro, el cual se encuentra sucio toda su carcasa y hasta los componentes electronicos"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 4. Grabador desarmado y sucio
+                        </figcaption>
+                    </figure>
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso3_grabador_limpio.png" 
+                            alt="Imagen que contiene 5 imagenes que muestran el mismo grabador anteriormente mencionado pero con todas las partes del mismo limpias y libres de hollin."
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 5. Grabador desarmado y limpio
+                        </figcaption>
+                    </figure> 
+                </div>
+
+            </section>
 
 
         </section>
@@ -158,6 +202,11 @@
                 <li>
                     <a href="#paso2">Organizar Gabinete de grabadores</a>
                 </li>
+
+                <li>
+                    <a href="#paso3">Limpiar grabador de video DVR</a>
+                </li>
+
             </ol>
         </nav>
         <!-- Fin del menu de navegacion con la lista ordenada de los pasos -->
