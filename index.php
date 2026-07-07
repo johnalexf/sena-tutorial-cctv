@@ -58,7 +58,8 @@
     <main class="flex-grow-1 overflow-y-auto row px-3 m-0">
 
         <!-- Inicio contenido del detalles de los pasos -->
-        <section class="col-9 py-3">
+        <section class="col-9 py-3 border-secondary border-2 border-end">
+            
             <h2 class="text-primary text-center fs-4">
                 Pasos para realizar un mantenimiento preventivo a un sistema de circuito cerrado de television (CCTV)
             </h2>
@@ -79,17 +80,61 @@
                 </div>
 
                 <!-- Contenedor de la o las imagenes del paso 1 -->
-                <div class="contenedor-img-paso">
+                <div class="contenedor-imagenes-paso">
                     <figure>
                         <img 
                             class="imagen-representativa-paso"
                             src="assets/img/paso1_monitor_dvr.png" 
                             alt="Foto de un monitor de la visualizacion de 32 camaras de un grabador donde 15 de ellas no tienen visual"
                         >
-                        <figcaption class="mt-2 text-muted small">
+                        <figcaption class="mt-2 text-muted small text-center">
                             Figura 1. Visualizacion de camaras antes del mantenimiento
                         </figcaption>
                     </figure>   
+                </div>
+
+            </section>
+
+
+            <!-- paso 2. -->
+            <section id="paso2" class="contenedor-paso">
+
+                <!-- titulo del paso 2 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-5 ">
+                        Paso 2. Organizar Gabinete de grabadores
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 2 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Segun el estado del gabinete si los cables estan en desorden y sueltos, se recomienda ordenarlos, marcarlos y de paso limpiar el gabinete, esto permite identificar rapidamente el cable de cada camara, ademas de proporcionar una manipulacion comoda al momento de intervenir en los grabadores. </p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 2 -->
+                <div class="contenedor-imagenes-paso">
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso2_gabinete_desordenado.png" 
+                            alt="Foto de un gabinete negro de 80cm de alto que en su contenido hay dos grabadores con todos los cables de todas las diferentes conexiones desordenados"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 2. Gabinete desordenado
+                        </figcaption>
+                    </figure>
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso2_gabinete_ordenado.png" 
+                            alt="Foto del mismo gabinete de la figura 2, pero esta vez ordenado, con cada cable separado y bien agrupado."
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 3. Gabinete ordenado
+                        </figcaption>
+                    </figure> 
                 </div>
 
             </section>
@@ -100,7 +145,7 @@
 
         <!-- Inicio del menu de navegacion con la lista ordenada de los pasos -->
          <!-- Se usa sticky-top para mantener fijo el menu de navegacion mientras se hace scroll en el contenido de los detalles -->
-        <nav class= "col-3 py-3 sticky-top border-secondary border-2 border-start">
+        <nav class= "col-3 py-3 sticky-top align-self-start">
             <h2 class="text-primary text-center fs-4">
                 Menú de navegación
             </h2>
@@ -108,6 +153,10 @@
             <ol>
                 <li>
                     <a href="#paso1">Documentar visualizacion de camaras en DVR</a>
+                </li>
+
+                <li>
+                    <a href="#paso2">Organizar Gabinete de grabadores</a>
                 </li>
             </ol>
         </nav>

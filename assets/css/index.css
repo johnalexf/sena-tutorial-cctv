@@ -3,7 +3,17 @@
     margin-top: 2rem;
 }
 
+
+.contenedor-imagenes-paso{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-items: center;
+}
+
+
 /* Clase para controlar cada una de las imagenes de los pasos */
 .imagen-representativa-paso{
-    max-width: 600px;
+    max-width: 400px;
+    max-height: 300px;
 }
+
