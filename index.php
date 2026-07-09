@@ -184,6 +184,40 @@
             </section>
 
 
+
+            <!-- paso 4. -->
+            <section id="paso4" class="contenedor-paso">
+
+                <!-- titulo del paso 4 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-5 ">
+                        Paso 4. Levantar información de ubicacioón de camaras
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 4 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Para poder llevar un control del mantenimiento realizado a cada una de las camaras, se recomienda generar un plano del lugar para asi sobre este dibujar cada una de las camaras, lo que permite determinar claramente su ubicacion a demas de ayudar a agilizar la deteccion de en que punto del grabador esta conectada y que area esta vigilando. </p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 4 -->
+                <div class="contenedor-imagenes-paso">
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso4_plano_ubicacion_camaras.png" 
+                            alt="Imagen de un plano de un conjunto de casas, en donde se tiene el croquis de toda el area que abarca el lugar, ademas tiene señalado por medio de un cuadrado y un triangulo las camaras donde se encuentran ubicadas, apuntando hacia donde estan vigilando y con una etiqueta de a que grabador esta conectada y que puerto"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 5. Plano ubicacion de camaras
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </section>
+
         </section>
         <!-- Fin del contenido del detalle de los pasos -->
 
