@@ -308,6 +308,51 @@
 
 
 
+            <!-- paso 7. -->
+            <section id="paso7" class="contenedor-paso">
+
+                <!-- titulo del paso 7 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-7 ">
+                        Paso 7. Enfoque de las camaras
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 7 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Aun que este paso se puede hacer en conjunto con los dos anteriores, todo depende de la forma de trabajar y el personal a disposicion, pues aun que parezca doble trabajo ir a una camara hacerle mantenimiento y despues volver a ir para enfocarla, en cuestion de productivad se ve mas efectivo si concentramos las energias a reparar y limpiar, para luego como una satisfaccion enfocar las camaras que es la tarea de menor esfuerzo fisico y mental, de igual manera esta de libre decision del tecnico que realice el mantenimiento. Muy bien en este caso y retomando, se pueden realizar el paso 5, 6 y 7 en conjunto, pues al estar en la camara se verifica si esta funcionando correctamente su video hasta el grabador y en dado caso que no, con ayuda del plano se puede trazar la posible ruta del cable y seguirla para encontrar la falla de la misma, para asi despues poder enfocarla, en donde la idea es aprovechar al maximo la apertura del lente, pues en grabacion de areas nos debemos fijar que no este grabando una pared si no es necesario e incluso que este apuntando al cielo, son dos causas que hacen desaprovechar la capacidad de la camara para grabar un poco mas de amplitud donde si pasa gente constantemente. </p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 7 -->
+                <div class="contenedor-imagenes-paso">
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso7_camara_antes_de_enfocar.png" 
+                            alt="Imagen de la visualizacion de una camara en un parqueadero en el primer piso al aire libre dentro de un conjunto, donde se ven cuatro carros al lado izquierdo y dos carros al lado derecho, en total se alcanzan a ver 5 estacionamientos del lado izquierdo y tres al lado derecho, la camara se encuentra apuntando muy hacia el suelo"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 9. Ejemplo de camara antes de enfocar
+                        </figcaption>
+                    </figure>
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso7_camara_despues_de_enfocar.png" 
+                            alt="Imagen de la visualizacion de la misma camara anteriore, pero esta vez se alcanza a visualizar hasta el fondo del mismo parqueadero, podiendo apreciar bastantes carros estacionados, la visual mejora considerablemente a comparacion de la anterior"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 10. Ejemplo de camara despues de enfocar
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </section>
+
+
         </section>
         <!-- Fin del contenido del detalle de los pasos -->
 
@@ -341,6 +386,10 @@
 
                 <li>
                     <a href="#paso6">Revision del cableado</a>
+                </li>
+
+                <li>
+                    <a href="#paso7">Enfoque de las camaras</a>
                 </li>
 
             </ol>
