@@ -204,13 +204,16 @@
                 <div class="contenedor-imagenes-paso">
 
                     <figure class="">
-                        <img 
+                        <a href="assets/img/paso4_plano_ubicacion_camaras.png" target="_blank" title="Haz clic para ver el plano en tamaño completo">
+                            <img 
                             class="imagen-representativa-paso"
                             src="assets/img/paso4_plano_ubicacion_camaras.png" 
                             alt="Imagen de un plano de un conjunto de casas, en donde se tiene el croquis de toda el area que abarca el lugar, ademas tiene señalado por medio de un cuadrado y un triangulo las camaras donde se encuentran ubicadas, apuntando hacia donde estan vigilando y con una etiqueta de a que grabador esta conectada y que puerto"
-                        >
+                            >
+                        </a>
+                        
                         <figcaption class="mt-2 text-muted small text-center">
-                            Figura 5. Plano ubicacion de camaras
+                            Figura 5. Plano ubicacion de camaras (clic para ampliar)
                         </figcaption>
                     </figure>
 
@@ -239,6 +242,10 @@
 
                 <li>
                     <a href="#paso3">Limpiar grabador de video DVR</a>
+                </li>
+
+                <li>
+                    <a href="#paso4">Levantar información de ubicación de camaras</a>
                 </li>
 
             </ol>

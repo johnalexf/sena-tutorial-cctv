@@ -17,3 +17,10 @@
     max-height: 300px;
 }
 
+/* Configuracion para centrar la imagen y el figcaption */
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
