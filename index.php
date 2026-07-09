@@ -353,6 +353,52 @@
             </section>
 
 
+
+            <!-- paso 8. -->
+            <section id="paso8" class="contenedor-paso">
+
+                <!-- titulo del paso 8 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-8 ">
+                        Paso 8. Realizar un informe
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 8 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Una vez terminado el mantenimiento, para que quede constancia de las actividades realizadas, los hallazgos encontrados, las propuestas de mejora, las aclaraciones del estado de la instalacion y el resultado final de la visualizacion de las camaras en el DVR, se debe realizar un informe con todo este contenido, asi se demuestra el trabajo realizado y se justifica las posibles fallas que se lleguen a presentar en el futuro por malas instalaciones encontradas o deterioro de los elementos que la componen. </p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 8 -->
+                <div class="contenedor-imagenes-paso">
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso8_monitor_dvr.png" 
+                            alt="Imagen del mismo monitor del paso 1, pero esta vez se visualizan todas las 32 camaras"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 11. Visualizacion de camaras al finalizar el mantenimiento
+                        </figcaption>
+                    </figure>
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso8_informe_tecnico.png" 
+                            alt="Imagen de un documento pdf abierto desde un navegador, aqui se observan cuatro hojas al costado derecho y al lado izquierdo una previsualizacion de cada una de estas hojas. Este documento es un ejemplo de un informe tecnico, el detalle de la imagen es con el fin de presentar al usuario que el resultado final debe ser un documento entregable, mas alla de su contenido pues este es de libre construccion de la persona"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 12. Informe en pdf
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </section>
+
+
         </section>
         <!-- Fin del contenido del detalle de los pasos -->
 
@@ -390,6 +436,10 @@
 
                 <li>
                     <a href="#paso7">Enfoque de las camaras</a>
+                </li>
+
+                <li>
+                    <a href="#paso8">Realizar un informe</a>
                 </li>
 
             </ol>
