@@ -262,6 +262,51 @@
             </section>
 
 
+            <!-- paso 6. -->
+            <section id="paso6" class="contenedor-paso">
+
+                <!-- titulo del paso 6 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-6 ">
+                        Paso 6. Revision del cableado
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 6 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Es de vital importancia aclarar que esta revision depende mucho del alcance del presupuesto, pues un mantenimiento preventivo no cubre revisar el cableado a fondo ni su reparacion, todo depende del acuerdo inicial que se haya pactado entre ambas partes. En dado caso si es necesario recuperar todas las camaras salvando el material ya instalado, entonces revisar cada una de las cajas de paso para verificar el estado de los empalmes y repararlos si el cable esta aun en continuidad de punta a punta, para esto se recomienda utilizar un generador de tonos, que ayuda a identificar rapidamente los cables y un multimetro para verificar la continuidad de cada uno de los hilos. Para proteger y mejorar el nuevo empalme usar estaño y termoencogible, para que el empalme sea lo mejor posible y su duracion sea mucho mayor, de todas formas en cada una de las cajas de paso verificar que no exista acumulacion de agua o humedad que es la principal causa de averías de los empalmes. De igual manera una camara no deberia tener mas de un emplame, pues con un cable se pueden recoger hasta cuatro camaras, pero en ocasiones se puede encontrar que una sola camara puede llegar a tener 5 empalmes, esto es una muy mala practica y apesar de que se pueda subsanar una vez, para el siguiente mantenimiento es mejor plantear una nueva instalacion del cableado y hasta de la infraestructura de la tuberia. </p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 6 -->
+                <div class="contenedor-imagenes-paso">
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso6_caja_paso_antes.png" 
+                            alt="Imagen de una caja metalica de 10cm * 10cm, abierta y sucia por dentro, con animales muertos y tierra acumulada, ademas se observan seis cables utp donde de a dos cables estan empalmados cada uno de los hilos entre si, estos empalmes estan protegidos con cinta aislante"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 7. Caja de empalmes antes de intervenir
+                        </figcaption>
+                    </figure>
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso6_caja_paso_despues.png" 
+                            alt="Imagen de la misma caja metalica anterior pero esta se ve limpia, con los empalmes protegidos con termoencoogible bien ordenados."
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 8. Caja de empalmes despues de intervenir
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </section>
+
+
 
         </section>
         <!-- Fin del contenido del detalle de los pasos -->
@@ -292,6 +337,10 @@
 
                 <li>
                     <a href="#paso5">Limpieza de camaras</a>
+                </li>
+
+                <li>
+                    <a href="#paso6">Revision del cableado</a>
                 </li>
 
             </ol>
