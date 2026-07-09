@@ -58,7 +58,7 @@
     <main class="flex-grow-1 overflow-y-auto row px-3 m-0">
 
         <!-- Inicio contenido del detalles de los pasos -->
-        <section class="col-9 py-3 border-secondary border-2 border-end">
+        <section class="col-9 py-4 px-5 border-secondary border-2 border-end">
 
             <h2 class="text-primary text-center fs-4">
                 Pasos para realizar un mantenimiento preventivo a un sistema de circuito cerrado de television (CCTV)
@@ -404,12 +404,12 @@
 
         <!-- Inicio del menu de navegacion con la lista ordenada de los pasos -->
          <!-- Se usa sticky-top para mantener fijo el menu de navegacion mientras se hace scroll en el contenido de los detalles -->
-        <nav class= "col-3 py-3 sticky-top align-self-start">
+        <nav class= "col-3 py-3 sticky-top align-self-start mt-2">
             <h2 class="text-primary text-center fs-4">
                 Menú de navegación
             </h2>
 
-            <ol>
+            <ol class="text-primary lista-ordenada">
                 <li>
                     <a href="#paso1">Documentar visualizacion de camaras en DVR</a>
                 </li>

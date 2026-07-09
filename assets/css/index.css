@@ -6,7 +6,7 @@
 
 .contenedor-imagenes-paso{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
     justify-items: center;
 }
 
@@ -23,4 +23,12 @@ figure{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.lista-ordenada{
+    margin-top: 2rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
