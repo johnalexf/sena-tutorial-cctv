@@ -267,7 +267,7 @@
 
                 <!-- titulo del paso 6 -->
                 <div class="contenedor-titulo-paso">
-                    <h3 class="text-primary fs-6 ">
+                    <h3 class="text-primary fs-5 ">
                         Paso 6. Revision del cableado
                     </h3>
                 </div>
@@ -313,7 +313,7 @@
 
                 <!-- titulo del paso 7 -->
                 <div class="contenedor-titulo-paso">
-                    <h3 class="text-primary fs-7 ">
+                    <h3 class="text-primary fs-5 ">
                         Paso 7. Enfoque de las camaras
                     </h3>
                 </div>
@@ -359,7 +359,7 @@
 
                 <!-- titulo del paso 8 -->
                 <div class="contenedor-titulo-paso">
-                    <h3 class="text-primary fs-8 ">
+                    <h3 class="text-primary fs-5 ">
                         Paso 8. Realizar un informe
                     </h3>
                 </div>
