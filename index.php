@@ -221,6 +221,48 @@
 
             </section>
 
+
+            <!-- paso 5. -->
+            <section id="paso5" class="contenedor-paso">
+
+                <!-- titulo del paso 5 -->
+                <div class="contenedor-titulo-paso">
+                    <h3 class="text-primary fs-5 ">
+                        Paso 5. Limpieza de camaras
+                    </h3>
+                </div>
+
+                <!-- descripcion del paso 5 -->
+                <div class="contenedor-descripcion-paso">
+                    <p> <span class="fw-bold">Descripcion:</span> Para hacer una limpieza comoda y adecuadamente, se recomienda desmontar la camara, para ello es util ayudarse de un taladro inalambrico para agilizar el desmonte, una vez desinstalado esta la comodidad de limpiarlo a nivel de piso, eliminando la suciedad acumulado y limpiando el lente con un paño suave, a la vez como ya esta desmontada la camara se debe limpiar la caja que contiene el cargador y el video balum, verificando de una vez la conexiones que no presenten sulfatacion. Un dato importante en algunas instalaciones se puede encontrar malas practicas en la instalacion, como el cable electrico conectado directamente al cargador sin una clavija aerea, e incluso el uso del cable utp para transimitir la corriente AC, cualquiera que sea la anomalia que se encuentre, es recomendable tomar fotos de como se encuentra la instalacion, pues esto permite mostrar los hallazgos y proponer mejorar del mismo, para su adecuado rendimiento. </p>
+                </div>
+
+                <!-- Contenedor de la o las imagenes del paso 5 -->
+                <div class="contenedor-imagenes-paso">
+
+                    <figure class="">
+                        <img 
+                            class="imagen-representativa-paso"
+                            src="assets/img/paso5_limpieza_camaras.png" 
+                            alt="Imagen que contiene 6 imagenes donde se ve lo siguiente: 
+                            imagen 1 - camara sucia y desmontadas. 
+                            imagen 2 - limpieza de la camara.
+                            imagen 3 - camara limpia.
+                            imagen 4 - caja de conexiones de la camara con cargador, cable utp, cable duplex, video balum, todo los elementos con polvo acumulado.
+                            imagen 5 - caja de conexiones limpia.
+                            imagen 6 - sujeto subido en una escalera de tijera manipulando una camara y sus conexiones"
+                        >
+                        <figcaption class="mt-2 text-muted small text-center">
+                            Figura 6. Limpieza de camaras y su caja de conexiones
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </section>
+
+
+
         </section>
         <!-- Fin del contenido del detalle de los pasos -->
 
@@ -246,6 +288,10 @@
 
                 <li>
                     <a href="#paso4">Levantar información de ubicación de camaras</a>
+                </li>
+
+                <li>
+                    <a href="#paso5">Limpieza de camaras</a>
                 </li>
 
             </ol>
